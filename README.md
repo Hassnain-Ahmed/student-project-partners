@@ -34,7 +34,7 @@ Student Project Partners is a web application designed to help university studen
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/student-project-partners.git
+   git clone [https://github.com/Hassnain-Ahmed/student-project-partners.git](https://github.com/Hassnain-Ahmed/student-project-partners.git)
    cd student-project-partners
    ```
 
@@ -104,6 +104,6 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 
-Your Name - your.email@example.com
+Hassnain Ahmed - dev.hassnain77@gmail.com
 
-Project Link: https://github.com/yourusername/student-project-partners
+Project Link: https://github.com/Hassnain-Ahmed/student-project-partners.git
