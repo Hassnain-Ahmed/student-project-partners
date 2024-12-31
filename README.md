@@ -34,7 +34,7 @@ Student Project Partners is a web application designed to help university studen
 
 1. Clone the repository:
    ```
-   git clone [https://github.com/Hassnain-Ahmed/student-project-partners.git](https://github.com/Hassnain-Ahmed/student-project-partners.git)
+   git clone https://github.com/Hassnain-Ahmed/student-project-partners.git
    cd student-project-partners
    ```
 
