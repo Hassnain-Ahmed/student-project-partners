@@ -33,13 +33,10 @@ class AuthenticatedSessionController extends Controller
             $cred = $request->only(["email", "password"]);
 
             if (Auth::attempt($cred)) {
-                // Get the authenticated user
                 $user = Auth::user();
 
-                // Check if user has a profile
                 $hasProfile = Profile::where('user_id', $user->id)->exists();
 
-                // Redirect based on profile existence
                 if ($hasProfile) {
                     return redirect()->route('dashboard');
                 } else {

@@ -106,9 +106,15 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         @forelse($availableStudents as $student)
+        @if ($student->status == "rejected")
+        @php
+        continue;
+        @endphp
+        @endif
         <div class="border rounded-lg p-4 bg-gray-50">
             <p class="font-semibold text-gray-700">{{ $student->name }}</p>
             <p class="text-gray-600">{{ $student->program }}</p>
+            <p class="text-gray-600">{{ $userDetails->course }}</p>
             @if($student->status)
             <p class="text-blue-600 text-sm mb-2">Status: {{ ucfirst($student->status) }}</p>
             @endif
